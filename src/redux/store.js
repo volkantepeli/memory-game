@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import itemsSlice from "./items/itemsSlice";
+import cardsSlice from "./cardsSlice";
 
 export const store = configureStore({
     reducer: {
-        items: itemsSlice,
+        cards: cardsSlice,
     },
 });

@@ -1,22 +1,16 @@
 import './App.css';
-import Content from './components/Content';
+import Cards from './components/Cards/Cards';
+import Header from './components/Header/Header';
 
 function App() {
   
   return (
     <div className="App">
-        <Content />
+        <Header />
+        <Cards />
     </div>
   );
 }
 
 export default App;
 
-
-// {
-//   items.map((item) => 
-//     <div key={item.id}>
-//       {item.name}
-//     </div>
-// )
-// }
